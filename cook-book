@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RecipeBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>🍲 RecipeBook</h1>
+
+        <ul>
+            <li>Home</li>
+            <li>Favorites</li>
+            <li>Shopping List</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Discover & Save Delicious Recipes</h2>
+        <p>Cook smarter. Eat better. Plan your meals with ease.</p>
+    </section>
+
+    <section class="controls">
+        <input type="text" placeholder="Search recipes...">
+
+        <select>
+            <option>All Categories</option>
+            <option>Breakfast</option>
+            <option>Dinner</option>
+            <option>Dessert</option>
+        </select>
+
+        <button>Add Recipe</button>
+    </section>
+
+    <section class="recipes">
+
+        <div class="card">
+            <div class="emoji">🍚</div>
+            <h3>Jollof Rice</h3>
+            <span>Dinner</span>
+
+            <p>Cuisine: Nigerian</p>
+
+            <ul>
+                <li>Rice</li>
+                <li>Tomato Paste</li>
+                <li>Onions</li>
+            </ul>
+
+            <div class="buttons">
+                <button>Delete</button>
+                <button>Shop</button>
+                <button>Fav</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🥑</div>
+            <h3>Avocado Toast</h3>
+            <span>Breakfast</span>
+
+            <p>Cuisine: International</p>
+
+            <ul>
+                <li>Bread</li>
+                <li>Avocado</li>
+                <li>Salt</li>
+            </ul>
+
+            <div class="buttons">
+                <button>Delete</button>
+                <button>Shop</button>
+                <button>Fav</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="emoji">🍝</div>
+            <h3>Chicken Pasta</h3>
+            <span>Dinner</span>
+
+            <p>Cuisine: Italian</p>
+
+            <ul>
+                <li>Pasta</li>
+                <li>Chicken</li>
+                <li>Cream</li>
+            </ul>
+
+            <div class="buttons">
+                <button>Delete</button>
+                <button>Shop</button>
+                <button>Fav</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
